@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/wallpaper.jpg);
+    background-image: url(wallpaper.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -325,7 +325,7 @@ flex-basis: 35%;
    }
    @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.jpg.jpg);
+        background-image: url(phone-background.jpg.jpg);
     }
     .header-text {
         margin-top: 100%;
