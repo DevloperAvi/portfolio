@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width initial-scale=1.0",
-    initial-scale=1.0">
-    <title>personal portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arvind Sahu | Frontend Developer Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/e150ea30fc.js"
@@ -13,10 +12,11 @@
     ></script>
   </head>
   <body>
+    <!-- Header -->
     <div id="header">
       <div class="container">
         <nav>
-          <img src="logo4.png" class="logo" />
+          <img src="logo4.png" class="logo" alt="Logo" />
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -28,99 +28,70 @@
           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>Front End Devloper</p>   
+          <p>Front End Developer</p>
           <h1>Hi, I'm <span>Arvind</span><br />Sahu From India</h1>
         </div>
       </div>
     </div>
-    <!-----------about---------->
+
+    <!-- About Section -->
     <div id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="cover.jpg.jpg" />
+            <img src="cover.jpg" alt="Arvind Sahu" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              I am a frontend developer who is passionate about creating
-              I am a frontend developer who is passionate about creating
-              engaging and user-friendly websites. I am a technology enthusiast,
-              and I love exploring new tools and frameworks to improve my
-              skills. As a self-taught developer, I am dedicated to continuous
-              learning and experimenting with different techniques to enhance my
-              expertise.<br />
-              Working in a team environment is one of my strengths, and I enjoy
-              collaborating with other creative minds to achieve project goals.
-              With my strong communication skills, I can effectively express my
-              ideas and seek assistance when needed, ensuring that project
-              deadlines are always met.<br />
-              When I am not coding, I enjoy playing games like GTA5 and spending
-              time with family and friends. Overall, I am a dedicated and
-              passionate frontend developer who is committed to delivering
-              high-quality work and staying up-to-date with the latest web
-              development trends and technologies.
+              I am a frontend developer who is passionate about creating engaging and user-friendly websites.
+              I enjoy learning new tools, collaborating with teams, and exploring modern web technologies.<br /><br />
+              When I’m not coding, I enjoy gaming (like GTA 5 🎮) and spending time with friends & family.
             </p>
+
             <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('experience')">
-                Experience
-              </p>
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
               <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+
             <div class="tab-contents active-tab" id="skills">
               <ul>
-                <li><span>UI/UX</span><br />Designing Web/App interface</li>
-                <li><span>Web Development</span><br />Web app Development</li>
-                <li>
-                  <span>App Development </span><br />building Android/IOS apps
-                </li>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Building responsive web apps</li>
+                <li><span>App Development</span><br />Android / iOS app design</li>
               </ul>
             </div>
+
             <div class="tab-contents" id="experience">
               <ul>
-                <li>
-                  <span> Current</span><br />#
-                </li>
-                <li><span>2022 - 2023</span><br />#</li>
-                <li>
-                  <span>2021 - 2022</span><br />#
-                </li>
-                <li>
-                  <span>2020 - 2021</span><br />#
-                </li>
+                <li><span>2023 - Present</span><br />Internship / Training</li>
+                <li><span>2022 - 2023</span><br />Projects & Freelance Work</li>
               </ul>
             </div>
+
             <div class="tab-contents" id="education">
               <ul>
-                <li>
-                  <span>2023</span><br />BCA from RMLAU.
-                </li>
-                <li><span>2020</span><br />Intermediate from Deva Inter college.</li>
-                <li><span>2018</span><br />High School from Deva Inter college.</li>
+                <li><span>2023</span><br />BCA from RMLAU</li>
+                <li><span>2020</span><br />Intermediate from Deva Inter College</li>
+                <li><span>2018</span><br />High School from Deva Inter College</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!------------services------->
+
+    <!-- Services Section -->
     <div id="services">
       <div class="container">
         <h1 class="sub-title">My Services</h1>
         <div class="services-list">
           <div>
             <i class="fa-solid fa-code"></i>
-            <h2>Web design</h2>
+            <h2>Web Design</h2>
             <p>
-              "Looking for a stunning website? I offer professional web design
-              services tailored to your needs. With a focus on visual appeal,
-              user experience, and responsive design, I'll create a website that
-              captures your brand and engages your audience. Let's collaborate
-              to bring your online vision to life. Contact me today for a
-              consultation!"
+              I design modern, responsive websites with strong visual appeal and user experience.
             </p>
             <a href="#">Learn more</a>
           </div>
@@ -128,96 +99,77 @@
             <i class="fa-solid fa-crop"></i>
             <h2>UI/UX Design</h2>
             <p>
-                "Want an intuitive and visually captivating user experience? I specialize in UI/UX design services that make your website or app stand out. From wireframing to prototyping, I'll create a seamless interface that delights users and boosts engagement. Let's elevate your digital presence together. Reach out for a consultation and let's create an exceptional user experience!"
+              From wireframing to prototypes, I craft interfaces that delight users and boost engagement.
             </p>
             <a href="#">Learn more</a>
           </div>
           <div>
             <i class="fa-brands fa-app-store"></i>
-            <h2>App design</h2>
+            <h2>App Design</h2>
             <p>
-                "Ready to bring your app idea to life? I offer professional app design services that combine stunning visuals with seamless functionality. From conceptualization to wireframing and user interface design, I'll craft an engaging app experience that captivates your users. Let's create an app that stands out in today's competitive market. Get in touch for a consultation and let's turn your vision into reality!"
+              I design engaging app experiences with intuitive navigation and seamless interactions.
             </p>
             <a href="#">Learn more</a>
           </div>
         </div>
       </div>
     </div>
-    <!--------portfolio-------->
+
+    <!-- Portfolio -->
     <div id="portfolio">
       <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
           <div class="work">
-            <img src="work-1.png" />
+            <img src="work-1.png" alt="Social Media App" />
             <div class="layer">
               <h3>Social Media App</h3>
-              <p>
-                The app connects you the talented people around the world
-                Download it from play store.
-              </p>
-              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+              <p>Connect with people worldwide. Download it from Play Store.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
           </div>
           <div class="work">
-            <img src="work-2.png" />
+            <img src="work-2.png" alt="Music App" />
             <div class="layer">
               <h3>Music App</h3>
-              <p>
-                Upgrade your music journey today. Get the app and let the melodies transport you!
-              </p>
-              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+              <p>Enhance your music journey. Get the app today!</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
           </div>
           <div class="work">
-            <img src="work-3.png" />
+            <img src="work-3.png" alt="Online Shopping App" />
             <div class="layer">
-              <h3>Online Shopping App</h3>
-              <p>
-                Don't miss out, get the app today and start shopping with ease!
-              </p>
-              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+              <h3>Shopping App</h3>
+              <p>Shop easily and quickly with this app.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
           </div>
         </div>
-        <a href="" class="btn">See more</a>
+        <a href="#" class="btn">See more</a>
       </div>
     </div>
 
-    <!------contact----->
+    <!-- Contact -->
     <div id="contact">
       <div class="container">
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i>engravi13@gmail.com</p>
-            <p><i class="fa-solid fa-square-phone"></i>8299243030</p>
+            <p><i class="fa-solid fa-paper-plane"></i> engravi13@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> 8299243030</p>
             <div class="social-icon">
-              <a href="https://www.facebook.com/profile.php?id=100039459760139"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href="https://www.instagram.com/arvind_aimlover/"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://facebook.com/profile.php?id=100039459760139"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/arvind_aimlover/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
           </div>
           <div class="contact-right">
             <form name="submit-to-google-sheet">
               <input type="text" name="Name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="Your Email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Your Message"
-              ></textarea>
+              <input type="email" name="Email" placeholder="Your Email" required />
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
               <button type="submit" class="btn btn2">Submit</button>
             </form>
             <span id="msg"></span>
@@ -225,27 +177,29 @@
         </div>
       </div>
       <div class="copyright">
-        <p>
-          Copyright © Arvind. Made with<i class="fa-solid fa-heart"></i> by Self Experience
-        </p>
+        <p>Copyright © Arvind. Made with <i class="fa-solid fa-heart"></i> by Self Experience</p>
       </div>
     </div>
 
+    <!-- Scripts -->
     <script>
+      // Tabs
       var tablinks = document.getElementsByClassName("tab-links");
       var tabcontents = document.getElementsByClassName("tab-contents");
       function opentab(tabname) {
-        for (tablink of tablinks) {
+        for (let tablink of tablinks) {
           tablink.classList.remove("active-link");
         }
-        for (tabcontent of tabcontents) {
+        for (let tabcontent of tabcontents) {
           tabcontent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
       }
     </script>
+
     <script>
+      // Mobile Menu
       var sidemeu = document.getElementById("sidemenu");
       function openmenu() {
         sidemeu.style.right = "0";
@@ -254,19 +208,22 @@
         sidemeu.style.right = "-200px";
       }
     </script>
+
     <script>
+      // Contact Form -> Google Sheets
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbwRtVQkwTPNG0WjanZicJC6DHcB-DSppaMHCdfd1rAKYnxT_xC_JqUAt29T5alqU4jGvQ/exec";
       const form = document.forms["submit-to-google-sheet"];
       const msg = document.getElementById("msg");
+
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
           .then((response) => {
-            msg.innerHTML = "Message sent successfully";
+            msg.innerHTML = "✅ Message sent successfully!";
             setTimeout(function () {
               msg.innerHTML = "";
-            }, 200);
+            }, 5000);
             form.reset();
           })
           .catch((error) => console.error("Error!", error.message));
